@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Privacy-preserving data clean rooms for mid-market brands, retailers, and clinics — audience matching and joint analytics with one-click setup.">
+  <title>Overlap — Data Clean Rooms Without the Data Team</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="config.js" defer></script>
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#" class="logo">
+        <svg class="logo-mark" width="32" height="32" viewBox="0 0 32 32" aria-hidden="true">
+          <rect width="32" height="32" rx="8" fill="#9d4456"/>
+          <circle cx="13" cy="16" r="7" fill="none" stroke="#fff" stroke-width="2.2"/>
+          <circle cx="19" cy="16" r="7" fill="none" stroke="#f3c9d1" stroke-width="2.2"/>
+        </svg>
+        <span data-company>Overlap</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#features">Product</a>
+        <a href="#how">How it works</a>
+        <a href="#trust">Trust</a>
+      </nav>
+      <a href="#cta" class="btn btn-primary btn-sm">Start a clean room</a>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Privacy-preserving data collaboration for SMBs</p>
+        <h1>Find your shared customers. Share zero customer data.</h1>
+        <p class="lead">Enterprises have Snowflake clean rooms and a data team to run them. <span data-company>Overlap</span> gives mid-market brands, retailers, and clinics the same secure multi-party matching and joint analytics — set up in an afternoon, no engineers required.</p>
+        <div class="hero-actions">
+          <a href="#cta" class="btn btn-primary">Start a clean room</a>
+          <a href="#how" class="btn btn-ghost">See the privacy model</a>
+        </div>
+        <p class="hero-note">CSV, Shopify, Klaviyo &amp; HubSpot connectors · raw data never leaves your side</p>
+      </div>
+
+      <!-- Hero visual: Venn overlap match panel -->
+      <div class="hero-visual" aria-hidden="true">
+        <div class="venn-panel">
+          <div class="venn-head">
+            <span>Clean room: <b>Spring co-promo</b></span>
+            <span class="venn-lock">🔒 hashed match · k-anonymity ≥ 50</span>
+          </div>
+          <div class="venn-stage">
+            <div class="venn-circle left"><span>Your customers<br><b>48,200</b></span></div>
+            <div class="venn-circle right"><span>Partner's customers<br><b>61,900</b></span></div>
+            <div class="venn-overlap-label">
+              <b>9,400</b>
+              <span>shared buyers<br>(19.5% of yours)</span>
+            </div>
+          </div>
+          <div class="venn-insights">
+            <div class="vi-row"><span>Shared buyers' avg. order value</span><b>+38% vs. base</b></div>
+            <div class="vi-row"><span>Best co-promo segment</span><b>Repeat buyers, 25–34</b></div>
+            <div class="vi-row vi-note"><span>Neither party can see the other's customer list — only aggregate results above the privacy threshold.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROBLEM ============ -->
+  <section class="section">
+    <div class="container">
+      <h2>Everyone wants to partner. Nobody wants to email a CSV.</h2>
+      <p class="section-lead">Co-marketing, co-located clinics, retail media — all of it needs shared customer insight that's currently illegal, risky, or impossible to get.</p>
+      <div class="cards cards-3">
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v12H4z" opacity="0.5"/><path d="m4 7 8 6 8-6"/><path d="m15 15 5 5m0-5-5 5"/></svg>
+          </div>
+          <h3>Spreadsheets over email</h3>
+          <p>The current &ldquo;clean room&rdquo; for SMBs is emailing customer lists and hoping. One forwarded file is a breach, a fine, and a lost partner.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v6c0 4.5 3.5 8 8 9 4.5-1 8-4.5 8-9V6z"/><path d="M12 8v5M12 16.5v.5"/></svg>
+          </div>
+          <h3>Privacy law has teeth now</h3>
+          <p>State privacy acts, HIPAA, GDPR — sharing identifiable customer data without safeguards is a five-to-seven-figure mistake, even between willing partners.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="15" rx="2"/><path d="M8 16V9M12 16v-4M16 16v-7" opacity="0.45"/><path d="M3 4l18 15"/></svg>
+          </div>
+          <h3>Enterprise tools, enterprise price</h3>
+          <p>Snowflake and AWS clean rooms assume a data warehouse and an engineering team. Mid-market companies have a Shopify login and a busy Tuesday.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURES ============ -->
+  <section class="section section-tint" id="features">
+    <div class="container">
+      <h2>Clean-room power, consumer-app effort.</h2>
+      <p class="section-lead">Each party connects their own data. Math does the collaborating.</p>
+      <div class="cards cards-4">
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="12" r="5.5"/><circle cx="15" cy="12" r="5.5"/></svg>
+          </div>
+          <h3>Audience matching</h3>
+          <p>Hashed, salted identifiers matched in a secure enclave. You learn how many customers you share and what they're worth — never who they are.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="15" rx="2"/><path d="M7 15v-4M11 15V8M15 15v-2M19 15v-6" opacity="0.9"/></svg>
+          </div>
+          <h3>Joint analytics</h3>
+          <p>Pre-built questions — overlap value, co-purchase patterns, campaign lift — answered on combined data with only aggregates ever leaving the room.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 11V7a4 4 0 0 1 8 0v4"/><rect x="5" y="11" width="14" height="9" rx="2"/><path d="m9.5 15.5 2 2 3.5-4"/></svg>
+          </div>
+          <h3>Compliance baked in</h3>
+          <p>k-anonymity floors, differential-privacy noise, purpose-bound agreements generated per room, full audit logs. Your lawyer gets a PDF they'll actually like.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14" opacity="0"/><path d="M7 7h.01M7 12h.01M7 17h.01M11 7h6M11 12h6M11 17h6"/><rect x="3" y="3" width="18" height="18" rx="3"/></svg>
+          </div>
+          <h3>Connectors, not pipelines</h3>
+          <p>Shopify, Klaviyo, HubSpot, Square, or a CSV upload. If you can export your customer list, you can run a clean room before lunch.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section class="section" id="how">
+    <div class="container">
+      <h2>Three steps, two parties, zero exposed rows.</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <h3>Create a room &amp; invite</h3>
+          <p>Name the collaboration, pick the questions it's allowed to answer, and send your partner a link. The purpose agreement generates automatically.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <h3>Each side connects data</h3>
+          <p>Both parties link their own source. Identifiers are hashed on your side before anything is matched — raw lists never cross the boundary.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <h3>Read the answers</h3>
+          <p>Overlap size, segment value, campaign lift — aggregate answers only, every query logged, every result above the privacy floor.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TRUST ============ -->
+  <section class="section section-tint" id="trust">
+    <div class="container">
+      <h2>Built so the careful party says yes.</h2>
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-num">0</div>
+          <p>raw customer records ever visible to the other party</p>
+        </div>
+        <div class="stat">
+          <div class="stat-num">k ≥ 50</div>
+          <p>minimum group size for any reported number</p>
+        </div>
+        <div class="stat">
+          <div class="stat-num">1 day</div>
+          <p>typical time from invite to first joint insight</p>
+        </div>
+      </div>
+
+      <div class="quote-card">
+        <blockquote>
+          <p>&ldquo;A national supplement brand wanted to co-market with our gyms but legal killed every data-sharing plan for a year. With <span data-company>Overlap</span> both sides connected our own systems, and a week later we knew exactly which 11,000 members to build the offer around — without either company seeing a single row of the other's list.&rdquo;</p>
+          <footer>
+            <div class="avatar">RB</div>
+            <div>
+              <strong>Renata Boivin</strong>
+              <span>VP Marketing, IronLeaf Fitness Collective</span>
+            </div>
+          </footer>
+        </blockquote>
+      </div>
+
+      <div class="trust-row">
+        <span class="trust-badge">SOC 2 Type II</span>
+        <span class="trust-badge">HIPAA-eligible rooms</span>
+        <span class="trust-badge">Differential privacy</span>
+        <span class="trust-badge">Full query audit log</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="section-cta" id="cta">
+    <div class="container cta-inner">
+      <h2>Your first clean room is free.</h2>
+      <p>Run one real overlap with one real partner — see the insight and the privacy report before paying anything.</p>
+      <form class="cta-form" id="signup-form">
+        <input type="email" placeholder="you@yourbrand.com" required aria-label="Email address">
+        <button type="submit" class="btn btn-light">Start a clean room</button>
+      </form>
+      <p class="cta-confirm" id="signup-confirm" hidden>Done — setup link and partner invite template are on the way.</p>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <svg class="logo-mark" width="28" height="28" viewBox="0 0 32 32" aria-hidden="true">
+            <rect width="32" height="32" rx="8" fill="#9d4456"/>
+            <circle cx="13" cy="16" r="7" fill="none" stroke="#fff" stroke-width="2.2"/>
+            <circle cx="19" cy="16" r="7" fill="none" stroke="#f3c9d1" stroke-width="2.2"/>
+          </svg>
+          <span data-company>Overlap</span>
+        </a>
+        <p>Privacy-preserving data collaboration for the mid-market.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="#trust">Trust</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:hello@overlap.example.com" data-email>hello@overlap.example.com</a>
+        <span data-domain>overlap.example.com</span>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 <span data-company>Overlap</span>. All rights reserved. Not legal advice; consult counsel for your specific data-sharing obligations.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("signup-form").addEventListener("submit", function (e) {
+      e.preventDefault();
+      this.hidden = true;
+      document.getElementById("signup-confirm").hidden = false;
+    });
+  </script>
+</body>
+</html>

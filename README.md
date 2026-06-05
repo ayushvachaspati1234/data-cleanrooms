@@ -1,4 +1,4 @@
-# Overlap — Landing Page
+# Kaventra — Landing Page
 
 Static landing page for a **privacy-preserving data clean rooms for SMBs** startup (audience matching, joint analytics, compliance baked in, no data team required). No build step, no dependencies — plain HTML/CSS/JS.
 
@@ -8,9 +8,9 @@ Edit the three values at the top of **`config.js`**:
 
 ```js
 const BRAND = {
-  companyName: "Overlap",
-  domain: "overlap.example.com",
-  contactEmail: "hello@overlap.example.com"
+  companyName: "Kaventra",
+  domain: "kaventra.xyz",
+  contactEmail: "hello@kaventra.xyz"
 };
 ```
 
